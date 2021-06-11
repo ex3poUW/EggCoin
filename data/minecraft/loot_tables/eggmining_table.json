@@ -1,0 +1,42 @@
+{
+    "pools": [
+      {
+        "rolls": {
+          "min": 1,
+          "max": 1
+        },
+        "entries": [
+          {
+            "type": "item",
+            "name": "minecraft:egg",
+            "weight": 10
+          },
+          {
+            "type": "item",
+            "name": "minecraft:emerald",
+            "weight": 1,
+            "quality": 10,
+            "functions": [
+              {
+                "function": "set_count",
+                "count": {
+                  "min": 1,
+                  "max": 3
+                },
+                "conditions": [
+                  {
+                    "condition": "random_chance",
+                    "chance": 0.146
+                  }
+                ]
+              },
+              {
+                "function": "set_nbt",
+                "tag": "{display:{Name:'\"EggCoin\"'}}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

@@ -1,0 +1,1 @@
+execute run clear @a minecraft:name_tag{display:{Name:'{"text":"EggCoin Miner"}'}}

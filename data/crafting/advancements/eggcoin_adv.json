@@ -1,0 +1,27 @@
+{
+    "display": {
+        "title": {
+            "text": "EggCoin",
+            "color": "gold"
+        },
+        "description": {
+            "text": "Wow, what a shitty meme."
+        },
+        "icon": {
+            "item": "minecraft:egg"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false,
+        "background": "minecraft:textures/gui/advancements/backgrounds/egg.png"
+    },
+    "criteria": {
+        "Crafted Eggcoin": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "crafting:spawn_eggcoin_miner"
+            }
+        }
+    }
+}
