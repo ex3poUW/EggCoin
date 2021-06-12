@@ -32,7 +32,7 @@
               },
               {
                 "function": "set_nbt",
-                "tag": "{display:{Name:'\"EggCoin\"'}}"
+                "tag": "{display:{Name:'\"EggCoin\"'}, CustomModelData:1}"
               }
             ]
           }
